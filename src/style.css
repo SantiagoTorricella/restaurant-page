@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+}
+
+:root {
+  --boxheight-size: 200px;
+  --boxwidth-size: 400px;
+}
+
+#content {
+  margin: 0em;
+  background-image: url("../images/background.jpg");
+  color: white;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+}
+
+.header-top > * {
+  margin: 0.5em;
+}
+
+.header-options {
+  display: flex;
+  font-size: large;
+}
+
+.empanadas-header {
+  width: 50px;
+  height: 50px;
+}
+
+.main > *,
+.header-options > * {
+  margin: 1em 2em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: var(--boxwidth-size);
+  height: var(--boxheight-size);
+  background-image: url("../images/wood-background.jpg");
+  font-size: larger;
+  padding: 1em;
+  border-radius: 2em;
+}
