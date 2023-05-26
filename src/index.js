@@ -1,4 +1,4 @@
 import "./style.css";
-import "./home";
+import loadHome from "./home";
 
-console.log("Holanda");
+loadHome();
