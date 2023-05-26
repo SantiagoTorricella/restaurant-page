@@ -66,3 +66,16 @@
   padding: 1em;
   border-radius: 2em;
 }
+
+.main-box-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: var(--boxwidth-size);
+  height: var(--boxheight-size);
+  background-image: url("../src/images/wood-background.jpg");
+  font-size: larger;
+  padding: 1em;
+  border-radius: 2em;
+}
