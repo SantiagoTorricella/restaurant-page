@@ -1,5 +1,7 @@
 import empanada1 from "./images/empanada.png";
 import empanada2 from "./images/empanada1.png";
+import loadMenu from "./menu";
+import loadContact from "./contact";
 
 let loadHome = () => {
   const content = document.getElementById("content");
@@ -97,6 +99,16 @@ let loadHome = () => {
   // Append all elements //
   content.appendChild(header);
   content.appendChild(main);
+
+  menu.addEventListener("click", () => {
+    content.innerHTML = "";
+    loadMenu();
+  });
+
+  contact.addEventListener("click", () => {
+    content.innerHTML = "";
+    loadContact();
+  });
 };
 
 export default loadHome;
